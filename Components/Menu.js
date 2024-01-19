@@ -1,50 +1,68 @@
 export default function Menu() {
   return (
-    <div className="bg-blue-950 w-full h-full text-white">
+    <div className="bg-blue-950 w-full">
       <img src="/CoinSpector_Logo.png" alt="CoinSpector Logo" />
-      <div>
-        <ul>
-          <li className="flex p-2 pl-7">
-            <img src="/home.png" alt="Home Logo" className="size-4 mx-2" />
-            Home
-          </li>
-          <li className="flex p-2 pl-7">
-            <img src="/Image Crypto Node.png" className="size-4 mx-2" />
-            Image Crypto Node
-          </li>
-          <li className="flex p-2 pl-7">
-            <img src="/Transaction Analysis.png" className="size-4 mx-2" />
-            Transaction Analysis
-          </li>
-          <li className="flex p-2 pl-7">
-            <img src="/wallet Analysis.png" className="size-4 mx-2" />
-            Wallet Analysis
-          </li>
-          <li className="flex p-2 pl-7">
-            <img src="/Visualization.png" className="size-4 mx-2" />
-            Visualization
-          </li>
-          <li className="flex p-2 pl-7">
-            <img src="/Search Artifacts.png" className="size-4 mx-2" /> Watch
-            List
-          </li>
-          <li className="flex p-2 pl-7">
-            <img src="/Reporting.png" className="size-4 mx-2" />
-            Reporting
-          </li>
-          <li className="flex p-2 pl-7">
-            <img src="/settings.png" className="size-4 mx-2" />
-            Settings
-          </li>
-          <li className="flex p-2 pl-7">
-            <img src="/home.png" className="size-4 mx-2" />
-            Support
-          </li>
-          <li className="flex p-2 pl-7">
-            <img src="/home.png" className="size-4 mx-2" />
-            Test
-          </li>
-        </ul>
+      <div className="flex pl-5 pt-5 text-white flex-col">
+        <div className="flex flex-row p-2 items-center">
+          <img src="/home.png" alt="Home Logo" className="size-4 mx-2" />
+          <a className="text-sm cursor-pointer"> Home</a>
+        </div>
+        <div className="flex flex-row p-2 items-center">
+          <img
+            src="/Image Crypto Node.png"
+            alt="Image Crypto Logo"
+            className="size-4 mx-2"
+          />
+          <a className="text-sm cursor-pointer"> Image Crypto Node</a>
+        </div>
+        <div className="flex flex-row p-2 items-center">
+          <img
+            src="/Transaction Analysis.png"
+            alt="Home Logo"
+            className="size-4 mx-2"
+          />
+          <a className="text-sm cursor-pointer"> Transaction Analysis</a>
+        </div>
+        <div className="flex flex-row p-2 items-center">
+          <img
+            src="/wallet Analysis.png"
+            alt="Home Logo"
+            className="size-4 mx-2"
+          />
+          <a className="text-sm cursor-pointer"> Wallet Analysis</a>
+        </div>
+        <div className="flex flex-row p-2 items-center">
+          <img
+            src="/Visualization.png"
+            alt="Home Logo"
+            className="size-4 mx-2"
+          />
+          <a className="text-sm cursor-pointer"> Visualization</a>
+        </div>
+        <div className="flex flex-row p-2 items-center">
+          <img
+            src="/Search Artifacts.png"
+            alt="Home Logo"
+            className="size-4 mx-2"
+          />
+          <a className="text-sm cursor-pointer"> Watch List</a>
+        </div>
+        <div className="flex flex-row p-2 items-center">
+          <img src="/Reporting.png" alt="Home Logo" className="size-4 mx-2" />
+          <a className="text-sm cursor-pointer"> Reporting</a>
+        </div>
+        <div className="flex flex-row p-2 items-center">
+          <img src="/settings.png" alt="Home Logo" className="size-4 mx-2" />
+          <a className="text-sm cursor-pointer"> Settings</a>
+        </div>
+        <div className="flex flex-row p-2 items-center">
+          <img src="/home.png" alt="Home Logo" className="size-4 mx-2" />
+          <a className="text-sm cursor-pointer"> Support</a>
+        </div>
+        <div className="flex flex-row p-2 items-center">
+          <img src="/home.png" alt="Home Logo" className="size-4 mx-2" />
+          <a className="text-sm cursor-pointer"> Chart Test</a>
+        </div>
       </div>
     </div>
   );

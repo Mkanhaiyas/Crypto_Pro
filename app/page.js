@@ -5,9 +5,13 @@ import datas from "@/data.json";
 export default function Home() {
   return (
     <div className="flex flex-row bg-neutral-200 h-screen">
-      <Menu />
+      <div className="flex w-1/6">
+        <Menu />
+      </div>
       <div className="w-5/6">
-        <WatchList add="False" del="False" search="False" />
+        <div>
+          <WatchList add="False" del="False" search="False" />
+        </div>
         <div>
           <table className="w-full">
             <thead className="h-14 bg-neutral-200 border border-gray-600 text-xs">
