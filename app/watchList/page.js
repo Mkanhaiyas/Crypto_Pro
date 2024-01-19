@@ -2,7 +2,7 @@ import Menu from "./Menu";
 import WatchList from "./WatchList";
 import datas from "@/data.json";
 
-export default function Home() {
+export default function watchList() {
   return (
     <div className="flex flex-row bg-neutral-200 h-screen">
       <div className="flex w-1/6">
@@ -10,19 +10,21 @@ export default function Home() {
       </div>
       <div className="w-5/6">
         <div>
-          <WatchList add="False" del="False" search="False" />
+          <WatchList add="True" del="True" search="True" />
         </div>
         <div>
           <table className="w-full">
             <thead className="h-14 bg-neutral-200 border border-gray-600 text-xs">
               <tr>
-                <th>Alert Name</th>
-                <th>Transaction Amt.</th>
-                <th>INR($=83)</th>
-                <th>TimeStamp</th>
+                <th>Sr No.</th>
+                <th>Wallet Address</th>
+                <th>Coin</th>
+                <th>Last Transfer</th>
+                <th>Balance</th>
+                <th>Transaction Value</th>
                 <th>Category</th>
-                <th>Wallet</th>
-                <th>Transaction ID</th>
+                <th>Black Listed</th>
+                <th>Edit</th>
               </tr>
             </thead>
             <tbody className="text-center">
@@ -36,6 +38,8 @@ export default function Home() {
                     <td>{data.Category}</td>
                     <td>{data.Wallet}</td>
                     <td>{data.TransId}</td>
+                    <td>{data.blackList}</td>
+                    <td>{data.Edit}</td>
                   </tr>
                 );
               })}
