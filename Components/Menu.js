@@ -1,67 +1,45 @@
 export default function Menu() {
   return (
-    <div className="bg-blue-950 w-full">
+    <div className="bg-blue-950 w-full h-full ">
       <img src="/CoinSpector_Logo.png" alt="CoinSpector Logo" />
-      <div className="flex pl-5 pt-5 text-white flex-col">
+      <div className="flex pl-5 pt-5 text-white flex-col text-sm">
         <div className="flex flex-row p-2 items-center">
           <img src="/home.png" alt="Home Logo" className="size-4 mx-2" />
           <a className="text-sm cursor-pointer"> Home</a>
         </div>
-        <div className="flex flex-row p-2 items-center">
-          <img
-            src="/Image Crypto Node.png"
-            alt="Image Crypto Logo"
-            className="size-4 mx-2"
-          />
-          <a className="text-sm cursor-pointer"> Image Crypto Node</a>
+        <div className="flex flex-row p-2 items-center cursor-pointer">
+          <img src="/Image Crypto Node.png" className="size-4 mx-2" />
+          Image Crypto Node
         </div>
         <div className="flex flex-row p-2 items-center">
-          <img
-            src="/Transaction Analysis.png"
-            alt="Home Logo"
-            className="size-4 mx-2"
-          />
-          <a className="text-sm cursor-pointer"> Transaction Analysis</a>
+          <img src="/Transaction Analysis.png" className="size-4 mx-2" />{" "}
+          Transaction Analysis
         </div>
         <div className="flex flex-row p-2 items-center">
-          <img
-            src="/wallet Analysis.png"
-            alt="Home Logo"
-            className="size-4 mx-2"
-          />
-          <a className="text-sm cursor-pointer"> Wallet Analysis</a>
+          <img src="/wallet Analysis.png" className="size-4 mx-2" />
+          Wallet Analysis
         </div>
         <div className="flex flex-row p-2 items-center">
-          <img
-            src="/Visualization.png"
-            alt="Home Logo"
-            className="size-4 mx-2"
-          />
-          <a className="text-sm cursor-pointer"> Visualization</a>
+          <img src="/Visualization.png" className="size-4 mx-2" /> Visualization
         </div>
         <div className="flex flex-row p-2 items-center">
-          <img
-            src="/Search Artifacts.png"
-            alt="Home Logo"
-            className="size-4 mx-2"
-          />
-          <a className="text-sm cursor-pointer"> Watch List</a>
+          <img src="/Search Artifacts.png" className="size-4 mx-2" /> Watch List
         </div>
         <div className="flex flex-row p-2 items-center">
-          <img src="/Reporting.png" alt="Home Logo" className="size-4 mx-2" />
-          <a className="text-sm cursor-pointer"> Reporting</a>
+          <img src="/Reporting.png" className="size-4 mx-2" />
+          Reporting
         </div>
         <div className="flex flex-row p-2 items-center">
-          <img src="/settings.png" alt="Home Logo" className="size-4 mx-2" />
-          <a className="text-sm cursor-pointer"> Settings</a>
+          <img src="/settings.png" className="size-4 mx-2" />
+          Settings
         </div>
         <div className="flex flex-row p-2 items-center">
-          <img src="/home.png" alt="Home Logo" className="size-4 mx-2" />
-          <a className="text-sm cursor-pointer"> Support</a>
+          <img src="/home.png" className="size-4 mx-2" />
+          Support
         </div>
         <div className="flex flex-row p-2 items-center">
-          <img src="/home.png" alt="Home Logo" className="size-4 mx-2" />
-          <a className="text-sm cursor-pointer"> Chart Test</a>
+          <img src="/home.png" className="size-4 mx-2" />
+          Test
         </div>
       </div>
     </div>
