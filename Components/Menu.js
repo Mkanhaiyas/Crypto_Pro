@@ -3,6 +3,7 @@ export default function Menu() {
     <div className="bg-blue-950 w-full h-full ">
       <img src="/CoinSpector_Logo.png" alt="CoinSpector Logo" />
       <div className="pl-5 pt-5 text-white text-sm ">
+        <ul></ul>
         <div className="flex p-2 items-center">
           <img src="/home.png" alt="Home Logo" className="size-4 mx-2" />
           <a className="text-sm cursor-pointer"> Home</a>
