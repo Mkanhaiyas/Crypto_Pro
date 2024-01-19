@@ -5,9 +5,7 @@ import datas from "@/data.json";
 export default function Home() {
   return (
     <div className="flex flex-row bg-neutral-200 h-screen">
-      <div className="flex w-1/6 bg-blue-950">
-        <Menu />
-      </div>
+      <Menu />
       <div className="w-5/6">
         <WatchList add="False" del="False" search="False" />
         <div>
