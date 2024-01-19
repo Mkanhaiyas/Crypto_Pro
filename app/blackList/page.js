@@ -1,5 +1,5 @@
-import Menu from "./Menu";
-import WatchList from "./WatchList";
+import Menu from "@/Components/Menu";
+import WatchList from "@/Components/WatchList";
 import datas from "@/data.json";
 
 export default function blackList() {
