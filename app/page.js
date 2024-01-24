@@ -1,5 +1,5 @@
-import Menu from "@/components/Menu";
-import WatchList from "@/components/WatchList";
+import Menu from "@/Components/Menu";
+import WatchList from "@/Components/WatchList";
 import datas from "@/data.json";
 
 export default function Home() {

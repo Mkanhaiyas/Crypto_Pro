@@ -1,4 +1,4 @@
-import Menu from "@/components/Menu";
+import Menu from "@/Components/Menu";
 // import WatchList from "@/Components/WatchList";
 import Link from "next/link";
 import datas from "@/data.json";
