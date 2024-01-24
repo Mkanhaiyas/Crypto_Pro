@@ -10,9 +10,8 @@ export default function watchList() {
           <Menu />
         </div>
         <div className="w-5/6">
-          <div>
-            <WatchList add="True" del="True" search="True" />
-          </div>
+          <WatchList add="True" del="True" search="True" />
+
           <div>
             <table className="w-full">
               <thead className="h-14 bg-neutral-200 border border-gray-600 text-xs">

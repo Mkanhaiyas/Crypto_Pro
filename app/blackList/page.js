@@ -10,9 +10,8 @@ export default function blackList() {
           <Menu />
         </div>
         <div className="w-5/6">
-          <div>
-            <WatchList add="True" del="False" search="False" />
-          </div>
+          <WatchList add="True" del="False" search="False" />
+
           <div>
             <table className="w-full">
               <thead className="h-14 w-full bg-neutral-200 border border-gray-600 text-xs ">
