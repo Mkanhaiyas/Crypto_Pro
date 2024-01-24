@@ -1,7 +1,7 @@
 export default function Menu() {
   return (
     <>
-      <div className="bg-blue-950 w-full">
+      <div className="bg-blue-950 w-full h-full">
         <img src="/CoinSpector_Logo.png" alt="CoinSpector Logo" />
         <div className="pl-5 pt-5 text-white flex-col">
           <div className="flex flex-row p-2 items-center">

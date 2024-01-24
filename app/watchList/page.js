@@ -6,11 +6,11 @@ export default function watchList() {
   return (
     <>
       <div className="flex flex-row bg-neutral-200 h-screen">
-        <div className="flex w-1/6">
+        <div className="w-1/6">
           <Menu />
         </div>
         <div className="w-5/6">
-          <WatchList add="True" del="True" search="True" />
+          <WatchList add={true} del={true} search={true} />
 
           <div>
             <table className="w-full">
