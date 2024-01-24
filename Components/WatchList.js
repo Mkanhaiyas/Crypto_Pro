@@ -52,14 +52,14 @@ export default function WatchList({ add, del, search }) {
         <div className="flex flex-row justify-end mr-10">
           <button
             className={`rounded px-1 ${
-              add == "False" ? "hidden" : "block"
+              add ? "block" : "hidden"
             } text-sm text-green-700 bg-green-300 border-green-700 border-2 my-3 mx-3`}
           >
             ADD
           </button>
           <button
             className={`rounded px-1 text-sm text-red-700 bg-red-300 border-red-700 border-2 my-3 ${
-              del == "False" ? "hidden" : "block"
+              del ? "block" : "hidden"
             }`}
           >
             DELETE
@@ -67,7 +67,7 @@ export default function WatchList({ add, del, search }) {
         </div>
         <div
           className={` w-full flex justify-center items-cente pb-3 ${
-            search == "False" ? "hidden" : "block"
+            search ? "block" : "hidden"
           }`}
         >
           <input type="text" className="px-3 pb-3 h-7 rounded-l-md w-10/12 " />
